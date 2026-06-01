@@ -1,44 +1,18 @@
-# Elizabeth Grace · Clean Official
+# Elizabeth Grace · Clean Official 单文件修复版
 
-这是 Elizabeth Grace 的灰粉色个人网页版本，可以直接上传 GitHub Pages。
+这个版本只有一个 `index.html` 文件。
 
-## 已经写入的信息
+头像和小猫光标已经直接嵌入到 HTML 里面，不再依赖 assets 文件夹，所以可以避免 GitHub 上传路径错误导致头像和光标不显示。
 
-- 姓名：Elizabeth Grace
-- 身份：心理学本科生
-- 研究方向：临床心理学和犯罪心理学研究
-- 邮箱：claenoffical@outlook.com
-- 个人博客：Clean Official
-- 社交账户：lovoe.0_0
-- 抖音主页：https://v.douyin.com/46wI4itF-bI/
+## 上传方法
 
-## 文件结构
+把 `index.html` 直接上传到 GitHub repository 最外层，然后等 GitHub Pages 自动刷新即可。
 
-```text
-.
-├── index.html
-├── style.css
-├── script.js
-├── README.md
-└── assets
-    ├── avatar.jpeg
-    ├── cat-cursor.svg
-    └── cat-pointer.svg
-```
+如果原仓库里已经有旧的：
+- index.html
+- style.css
+- script.js
+- assets
 
-## 上传到 GitHub Pages
-
-1. 新建 GitHub repository
-2. 上传所有文件到根目录
-3. 打开 Settings
-4. 打开 Pages
-5. Source 选择 Deploy from a branch
-6. Branch 选择 main
-7. Folder 选择 root
-8. 保存后等待生成链接
-
-## 之后可改
-
-- 如果邮箱拼写需要调整，打开 `index.html` 搜索 `claenoffical@outlook.com`
-- 如果抖音链接失效，搜索 `https://v.douyin.com/46wI4itF-bI/`
-- 如果想换头像，替换 `assets/avatar.jpeg`
+可以直接用这个新的 `index.html` 覆盖旧的 `index.html`。  
+其他文件留着也没关系，但这个单文件版本不依赖它们。
